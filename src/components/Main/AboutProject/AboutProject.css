@@ -1,0 +1,64 @@
+.about-project {
+    display: flex;
+    flex-direction: column;
+    padding: 110px 70px 50px;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.about-project__content {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 0 110px;
+}
+
+.about-project__content:last-child {
+    grid-template-columns: 228px auto;
+}
+
+.about-project__content-text:first-child {
+    margin: 0 40px 0 0;
+}
+
+.about-project__content-title {
+    margin: 0 0 26px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 20px;
+    letter-spacing: -0.04em;
+}
+
+.about-project__content-subtitle {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+.about-project__content-period-time {
+    margin: 0;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 14px;
+    background-color: #F2F2F2;
+}
+
+.about-project__content-period-time_blue {
+    background-color: #3456F3;
+    color: #ffffff;
+}
+
+.about-project__content-period-description {
+    margin: 0;
+    padding: 14px 0 0;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 14px;
+    color: #A0A0A0;
+    text-align: center;
+
+}
