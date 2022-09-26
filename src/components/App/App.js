@@ -1,4 +1,3 @@
-import logo from '../../logo.svg';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Main from "../Main/Main";
@@ -7,6 +6,7 @@ import Profile from "../Profile/Profile";
 import SavedMovies from "../SavedMovies/SavedMovies";
 import Register from "../Register/Register";
 import Login from "../Login/Login";
+import PageNotFound from "../PageNotFound/PageNotFound";
 
 function App() {
     return (
@@ -21,9 +21,7 @@ function App() {
                 {/*<Route path="/navbar">*/}
                 {/*    <Navbar/>*/}
                 {/*</Route>*/}
-                {/*<Route path="*">*/}
-                {/*    <PageNotFound/>*/}
-                {/*</Route>*/}
+                <Route path="*" element={<PageNotFound/>} />
             </Routes>
         </div>
     )

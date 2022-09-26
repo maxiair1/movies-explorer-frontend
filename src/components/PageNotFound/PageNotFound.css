@@ -1,0 +1,33 @@
+.notfound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 246px 0 0;
+}
+
+.notfound__text-style {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.notfound__title {
+    font-size: 140px;
+}
+
+.notfound__subtitle {
+    font-size: 16px;
+    padding: 5px 0 0;
+}
+
+.notfound__link:hover {
+    opacity: 0.6;
+}
+
+.notfound__link {
+    margin: 184px 0 0;
+    text-decoration: none;
+    color: #3456F3;
+}

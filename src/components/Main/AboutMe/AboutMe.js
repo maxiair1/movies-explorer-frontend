@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import './AboutMe.css';
 import SectionHeader from '../SectionHeader/SectionHeader';
 import photo from '../../../images/self.jpg'
@@ -19,11 +18,15 @@ function AboutMe() {
                         Хочу работать и развиваться в этом направлении.
                     </p>
                     <div className="about-me__social">
-                        <Link to="https://www.linkedin.com/in/maxim-kozhekin-b0265833" className="about-me__social-link">LinedIn</Link>
-                        <Link to="https://github.com/maxiair1" className="about-me__social-link">Github</Link>
+                        <a href="https://www.linkedin.com/in/maxim-kozhekin-b0265833" className="about-me__social-link" target="_blank" rel="noreferrer noopener">
+                            LinedIn
+                        </a>
+                        <a href="https://github.com/maxiair1" className="about-me__social-link" target="_blank" rel="noreferrer noopener">
+                            Github
+                        </a>
                     </div>
                 </div>
-                <img src={photo} className="about-me__photo"/>
+                <img src={photo} className="about-me__photo" alt="Фото"/>
             </div>
         </section>
     )

@@ -42,6 +42,10 @@
     max-width: 310px;
 }
 
+.promo__link:hover {
+    opacity: 0.6;
+}
+
 .promo__link {
     display: flex;
     justify-content: center;

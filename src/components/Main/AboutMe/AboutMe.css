@@ -3,7 +3,7 @@
     flex-direction: column;
     padding: 100px 70px;
     justify-content: space-between;
-    background-color: #F5F5F5;
+    background-color: #FAFAFA;
 }
 
 .about-me__content {
@@ -39,6 +39,10 @@
 
 .about-me__social{
     margin: 99px 0 0;
+}
+
+.about-me__social-link:hover {
+    opacity: 0.6;
 }
 
 .about-me__social-link {
